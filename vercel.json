@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "track_B.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "track_B.py"
+    }
+  ]
+}
