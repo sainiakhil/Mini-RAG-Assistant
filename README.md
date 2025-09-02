@@ -2,7 +2,7 @@
 
 A minimal yet powerful Retrieval-Augmented Generation (RAG) application built with Streamlit, featuring document processing, semantic search, and AI-powered question answering.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/your-template-link)
+[![Deploy on Railway](https://railway.app/button.svg)]([https://railway.app/template/your-template-link](https://mini-rag-assistant-production.up.railway.app/))
 
 ## 🏗️ Architecture
 
@@ -160,7 +160,9 @@ reranked_docs = index.search(
         "rank_fields": ["chunk_text"]
     }
 )
+ ```
 ---
+
 
 ## 🌐 Deployment
 
