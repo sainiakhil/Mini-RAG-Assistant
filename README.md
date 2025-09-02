@@ -168,26 +168,6 @@ reranked_docs = index.search(
 
 This project is deployed on **[Railway](https://railway.app/)** using the provided configuration files.
 
-### **Deployment Setup**
-
-1. Make sure you have a Railway account and the **Railway CLI** installed:
-
-   ```bash
-   npm i -g @railway/cli
-   ```
-
-2. Initialize the Railway project:
-
-   ```bash
-   railway init
-   ```
-
-3. Deploy the application using:
-
-   ```bash
-   railway up
-   ```
-
 ### **Deployment Configuration**
 
 The following files are included to streamline deployment on Railway:
@@ -242,6 +222,3 @@ The application provides real-time metrics:
 - **Models:** Fast inference with competitive pricing
 ---
 
-**Made with ❤️ using Streamlit, Pinecone, and Groq**
-
-*For the latest updates and features, star ⭐ this repository!*
